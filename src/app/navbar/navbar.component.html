@@ -18,10 +18,13 @@
         </div>
     </div>
     <a href="mailto:prests@rpi.edu" target='_blank'>Email: prests@rpi.edu</a>
-    <!--<a href="../../assets/Shayne Preston - Resume Fall 2018.pdf" target='_blank'>Resume</a>-->
-    <!--<a href="../../assets/Shayne Preston - Resume Fall 2018.pdf" download="Shayne Preston - Resume Fall 2018">Resume</a>-->
-    <a [href]="'assets/Shayne Preston - Resume Fall 2018.pdf'" target='_blank'>Resume</a>
+    <div class="dropdown">
+        <button class="dropbtn">Resume <strong>&#8623;</strong></button>
+        <div class="dropdown-content">
+            <a [href]="'assets/Shayne Preston - Resume Fall 2018.pdf'" target='_blank'>Browser View</a> 
+            <a [href]="'assets/Shayne Preston - Resume Fall 2018.pdf'" download="Shayne Preston - Resume Fall 2018">Download PDF</a>
+        </div>
+    </div>
     <!--<a href="javascript:void(0);" style="font-size:15px;" class="icon" (click)="reactive()">&#9776;</a>--->
     <a href="#" style="font-size:15px;" class="icon" (click)="reactive()">&#9776;</a>
   </div>
-  
