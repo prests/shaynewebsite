@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
   title = 'about';
+
+  reactive(){
+    console.log("It's working!");
+  }
 }
