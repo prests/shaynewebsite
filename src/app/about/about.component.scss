@@ -1,0 +1,38 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+            "left right";
+    min-height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.gridItem{
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.left{
+    grid-area: left;
+    background: rgb(51, 51, 51);
+    text-align: center;
+}
+
+.left img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 25px;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 10px;
+}
+
+.right{
+    grid-area: right;
+    background: darkcyan;
+}
