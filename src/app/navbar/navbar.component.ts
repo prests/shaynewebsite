@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
   title = 'navbar';
+  reactive(){
+    console.log("It's working!")
+  }
 }
