@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
+import { Router, NavigationStart } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'shaynepages';
+  title = 'app';
+  loaded = false;
+  ngAfterViewInit(){
+    setTimeout(() => {
+      this.loaded = true;
+    }, 5000);
+  }
 }

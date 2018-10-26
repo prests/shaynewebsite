@@ -1,0 +1,30 @@
+@import '../scss/vars';
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    //background: black;
+}
+.main-content {
+    padding: 15px;
+    flex: 1 0 auto;
+    background: rgba(37, 37, 37, 0.973);
+    color: white;
+}
+
+.footbar{
+    flex-shrink: 0;
+}
+
+.load{
+    opacity: 1;
+    transition: 1s ease-in-out;
+}
+
+.notLoad{
+    background: black;
+}
