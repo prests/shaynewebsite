@@ -4,7 +4,8 @@
     grid-template-rows: auto;
     grid-template-areas: 
         "top top"
-        "left right";
+        "left right"
+        "bottom bottom";
     min-height: 100%;
     width: 100%;
     padding: 0px;
@@ -21,7 +22,7 @@
 .title{
     grid-area: top;
     grid-row: 1;
-    background: rgb(97,152,142);
+    background: darkcyan;
 }
 
 .left{
@@ -31,5 +32,10 @@
 
 .right{
     grid-area:right;
+    background: rgb(51,51,51);
+}
+
+.bottom{
+    grid-area: bottom;
     background: darkcyan;
 }
