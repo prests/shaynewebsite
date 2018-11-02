@@ -44,4 +44,12 @@ img{
     max-width: 200px;
     max-height: 200px;
     padding: 10px;
+    border-radius: 25px;
+    transition: 1 all ease-in-out;
+}
+
+img:hover{
+    max-width: 400px;
+    max-height: 400px;
+    transition: 1 all ease-in-out;
 }
