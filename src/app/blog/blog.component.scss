@@ -39,3 +39,9 @@ a{
     transform: translateY(0);
     transition: 0.5s all ease-in-out;
 }
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+}
