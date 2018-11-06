@@ -25,6 +25,28 @@
             <a [href]="'assets/Shayne Preston - Resume Fall 2018.pdf'" download="Shayne Preston - Resume Fall 2018">Download PDF</a>
         </div>
     </div>
-    <!--<a href="javascript:void(0);" style="font-size:15px;" class="icon" (click)="reactive()">&#9776;</a>--->
-    <a href="#" style="font-size:15px;" class="icon" (click)="reactive()">&#9776;</a>
+    <button class="icon" (click)="reactive()">&#9776;</button>
   </div>
+<div class ='smallScreen'>
+    <div *ngIf = 'toggled'>
+        <a [routerLink] = "['\About']">About</a>
+    </div>
+    <div *ngIf = 'toggled'>
+        <a [routerLink] = "['\Blog']">Blog</a>
+    </div>
+    <div *ngIf = 'toggled'>
+        <a href="https://github.com/prests" target='_blank'>Github</a>
+    </div>
+    <div *ngIf = 'toggled'>
+        <a href="https://www.linkedin.com/in/shayne-preston-131228131/" target='_blank'>LinkedIn</a>
+    </div>
+    <div *ngIf = 'toggled'>
+        <a href="https://gitlab.com/prests" target='_blank'>Gitlab</a>
+    </div>
+    <div *ngIf = 'toggled'>
+        <a href="mailto:prests@rpi.edu" target='_blank'>Email: prests@rpi.edu</a>
+    </div>
+    <div *ngIf = 'toggled'>
+        <a [href]="'assets/Shayne Preston - Resume Fall 2018.pdf'" target='_blank'>Resume</a> 
+    </div>
+</div>

@@ -7,7 +7,12 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
   title = 'navbar';
+  toggled = false;
   reactive(){
-    console.log("It's working!")
+    if(this.toggled){
+      this.toggled = false;
+    }else{
+      this.toggled = true;
+    }
   }
 }
