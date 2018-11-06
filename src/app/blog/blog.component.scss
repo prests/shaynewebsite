@@ -58,3 +58,17 @@ img:hover{
     max-height: 400px;
     transition: 1 all ease-in-out;
 }
+
+@media screen and (max-width: 700px) {
+    img{
+        max-width: 150px;
+        max-height: 150px;
+        padding: 10px;
+        border-radius: 25px;  
+    }
+
+    img:hover{
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
