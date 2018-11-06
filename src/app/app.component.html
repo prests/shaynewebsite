@@ -1,13 +1,17 @@
 <!--<div [ngClass]="loaded ? 'load' : 'notLoad'">-->
-  <body>
+<body>
     <div *ngIf = 'loaded'>
         <navbar></navbar>
     </div>
-    <div class="main-content">
-        <div *ngIf = '!loaded'> 
-            <crazyloader></crazyloader>
+    <div *ngIf = '!loaded'> 
+        <div [ngClass] = "display ? 'fadeIn' : 'blank'">
+            <div [ngClass] = "fade ? 'fadeOut' : 'fadeIn'">
+                <p>Shayne's Website</p>
+            </div>
         </div>
-        <div *ngIf = 'loaded'>
+    </div>
+    <div *ngIf = 'loaded'>
+        <div class="main-content">
             <router-outlet></router-outlet>
         </div>
     </div>

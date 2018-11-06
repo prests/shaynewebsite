@@ -5,19 +5,12 @@ html{
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-    //background: black;
-}
-.main-content {
-    padding: 15px;
-    flex: 1 0 auto;
     background: rgba(37, 37, 37, 0.973);
-    color: white;
 }
 
-.footbar{
-    flex-shrink: 0;
+.main-content {
+    padding: 15px;
+    color: white;
 }
 
 .load{
@@ -27,4 +20,32 @@ body{
 
 .notLoad{
     background: black;
+}
+
+p{
+    color: darkcyan;
+    font-family: "Courier";
+    font-size: 40px;
+    text-align: center;
+}
+
+.blank{
+    opacity: 0;
+}
+
+
+.fadeOut{
+    opacity: 0;
+    transition: 1s ease-in-out;
+    display: block;
+    top: 50%;
+    left: 50%;
+}
+
+.fadeIn{
+    opacity: 1;
+    transition: 1s ease-in-out;
+    display: block;
+    top: 50%;
+    left: 50%;
 }

@@ -9,7 +9,17 @@ import { Router, NavigationStart } from '@angular/router';
 export class AppComponent {
   title = 'app';
   loaded = false;
+  display = false;
+  fade = false;
   ngAfterViewInit(){
+    setTimeout(() => {
+      this.display = true;
+      console.log(this.display);
+    }, 1000)
+    setTimeout(() => {
+      this.fade = true;
+      console.log(this.display);
+    }, 3000)
     setTimeout(() => {
       this.loaded = true;
     }, 5000);

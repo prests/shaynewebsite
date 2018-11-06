@@ -1,20 +1,16 @@
-.center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(50%, 50%);
-    //width: 200px;   
-}
-
 p{
     color: grey;
     font-family: "Courier";
     font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
 }
 
 .blank{
     opacity: 0;
 }
+
 
 .fadeOut{
     opacity: 0;
