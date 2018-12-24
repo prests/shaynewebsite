@@ -2,12 +2,12 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(37, 37, 37, .1);
 }
 
 .smallScreen {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(37, 37, 37, .5);
 }
 
 .topnav a {
@@ -36,7 +36,7 @@
 }
 
 .active {
-  background-color: darkcyan;
+  background-color: rgba(0,139, 139,0.2);
   color: white;
 }
 
@@ -107,7 +107,7 @@
     display: block;
     font-size: 25px;
     padding: 7px 16px;
-    background: #333;
+    background: rgba(37, 37, 37, .1);
     color: white;
     border: none;
     outline: inherit;

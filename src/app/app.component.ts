@@ -7,10 +7,14 @@ import { Router, NavigationStart } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  router: string;
   title = 'app';
   loaded = false;
   display = false;
   fade = false;
+
+  constructor(private _router: Router){}
+
   ngAfterViewInit(){
     setTimeout(() => {
       this.display = true;

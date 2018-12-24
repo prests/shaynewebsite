@@ -1,18 +1,22 @@
 @import '../scss/vars';
-
-html{
-    height: 100%;
-    background: rgb(37, 37, 37); 
+.testLoaded{
+    display: inline-block;
+    min-width: 100%;
+    min-height: 100vh;
+    background: url(../assets/images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
-body{
+.testNotLoaded{
     background: rgb(37, 37, 37);
 }
 
 .main-content {
+    //background-image: url(../assets/images/background.jpg);
     padding: 15px;
-    color: white;
-    background: rgb(37, 37, 37); 
+    color: white; 
 }
 
 .load{
@@ -33,6 +37,7 @@ p{
 
 .blank{
     opacity: 0;
+    background: rgb(37, 37, 37);
 }
 
 

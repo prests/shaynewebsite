@@ -1,5 +1,5 @@
 <!--<div [ngClass]="loaded ? 'load' : 'notLoad'">-->
-<body>
+<body [ngClass] = "loaded ? 'testLoaded' : 'testNotLoaded'">
     <div [ngClass] = "{'blank' : !loaded}">
         <navbar></navbar>
     </div>

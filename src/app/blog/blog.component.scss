@@ -4,10 +4,10 @@ html{
 }
 
 .gridContainer{
+    overflow: auto;
     display: grid;
     grid-template: auto;
-    min-height: 100%;
-    width: 100%;
+    z-index: 10;
 }
 
 .gridItem{
@@ -22,11 +22,11 @@ a{
 }
 
 .grey{
-    background: rgb(90, 90, 90);
+    background: rgba(90, 90, 90, 0.5);
 }
 
 .darkCyan{
-    background: darkcyan;
+    background: rgba(0, 139, 139, 0.5);
 }
 
 .motto{
