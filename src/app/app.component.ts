@@ -16,6 +16,7 @@ export class AppComponent {
   constructor(private _router: Router){}
 
   ngAfterViewInit(){
+    /*
     setTimeout(() => {
       this.display = true;
       console.log(this.display);
@@ -27,5 +28,6 @@ export class AppComponent {
     setTimeout(() => {
       this.loaded = true;
     }, 5000);
+    */
   }
 }

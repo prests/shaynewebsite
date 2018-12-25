@@ -1,5 +1,6 @@
 <!--<div [ngClass]="loaded ? 'load' : 'notLoad'">-->
 <body [ngClass] = "loaded ? 'testLoaded' : 'testNotLoaded'">
+    <!--
     <div *ngIf = '!loaded'> 
         <div [ngClass] = "display ? 'fadeIn' : 'blank'">
             <div [ngClass] = "fade ? 'fadeOut' : 'fadeIn'">
@@ -7,14 +8,15 @@
             </div>
         </div>
     </div>
-    <div *ngIf = 'loaded'>
+    -->
+    <!--<div *ngIf = 'loaded'>--->
         <div class="main-content">
-            <div [ngClass] = "{'blank' : !loaded}">
+            <!--<div [ngClass] = "{'blank' : !loaded}">-->
                 <navbar></navbar>
-            </div>
+            <!--</div>-->
             <router-outlet></router-outlet>
         </div>
-    </div>
+    <!--</div>-->
     <!--
     <div *ngIf = 'loaded'>
         <div class="footbar">
