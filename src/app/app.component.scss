@@ -21,6 +21,7 @@ html{
     background-image: url(../assets/images/background.jpg);
     background-position: center center;
     background-attachment: fixed;
+    //background-repeat: no-repeat; Weird bug with mobile and this right now :(
     padding: 15px;
     color: white; 
 }
